@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react';
-import { Todo } from '@/app/types/todo';
+import { Todo } from '@/types/todo';
 import Image from 'next/image';
 import TrashIcon from '@/public/Trash.svg'
 
