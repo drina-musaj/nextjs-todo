@@ -1,11 +1,17 @@
 @import "tailwindcss";
+@import "tailwindcss/preflight"
 
-@tailwind base;
-@tailwind components;
+/* @tailwind base; */
+/* @tailwind components; */
 @tailwind utilities;
 
 body{
     background-color: #0D0714;
     font-family: 'Poppins';
+}
+h1{
+    color: #e0e0e0;
+    font-size: 42px;
+    font-weight: bold;
 }
 

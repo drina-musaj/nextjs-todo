@@ -4,7 +4,7 @@
 import { FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
 import Image from 'next/image';
-import List from '@/public/list.svg'
+import Scene from '@/public/Scene.svg'
  
 export default function LoginForm() {
   const router = useRouter()
@@ -32,8 +32,8 @@ export default function LoginForm() {
   return (
 
     <div className="container flex flex-col max-w-fit mx-auto justify-center">
-      <h1 className='text-[#e0e0e0] text-[42px] font-bold text-center pt-20'>Sign In.</h1>
-      <Image src={List} alt='rocket' width={500} height={500}/>
+      <h1 className='text-center pt-20'>Sign In.</h1>
+      <Image src={Scene} alt='rocket' width={500} height={500}/>
       <form onSubmit={handleSubmit} 
       className='flex flex-col justify-center items-center gap-y-4' >
         <input type="email" name="email" placeholder="Email" required className='border-2 border-[#3E1671] rounded-lg px-5 text-[#d6d6d6] text-lg font-semibold w-[381px] h-[61px]' />

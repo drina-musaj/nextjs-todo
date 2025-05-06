@@ -5,7 +5,8 @@ import { Todo } from '@/types/todo';
 import Image from 'next/image';
 import TrashIcon from '@/public/Trash.svg'
 
-export default function Home() {
+
+export default function TodoApp() {
 
   const [todo, setTodo] = useState<Todo[]>([]);
   const [newTodo, setNewTodo] = useState('');
