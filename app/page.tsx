@@ -12,6 +12,9 @@ import {
 export default function Home() {
   return (
   <ClerkProvider>
+   <div id='stars'></div>
+  <div id='stars2'></div>
+  <div id='stars3'></div>
 
     <div className="flex flex-col justify-center items-center h-screen">
         <h1>Priorities. Plans. Planets</h1>
