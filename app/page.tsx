@@ -8,6 +8,9 @@ import {
   } from '@clerk/nextjs'
   import Button from '../components/button'
   import SigninBtn from '../components/signinButton'
+  import ContinueBtn from '../components/continueBtn'
+  import Link from 'next/link'
+
 
 export default function Home() {
   return (
@@ -21,13 +24,17 @@ export default function Home() {
         <p className="text-[#e0e0e0]">Float through your day with a to-do app that keeps everything aligned.</p>
         <div className="flex flex-col">
           <SignedOut>
-          <SignUpButton>
-            <Button/>              
-          </SignUpButton>
-          </SignedOut> 
-          <SignInButton>
-            <SigninBtn />
-          </SignInButton>
+            <SignUpButton>
+              <Button />
+            </SignUpButton>
+            <SignInButton>
+              <SigninBtn />
+            </SignInButton>
+          </SignedOut>
+
+          <SignedIn>
+             <ContinueBtn />
+          </SignedIn>
         </div>
     </div>
     
