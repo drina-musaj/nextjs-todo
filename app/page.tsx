@@ -9,7 +9,6 @@ import {
   import Button from '../components/button'
   import SigninBtn from '../components/signinButton'
   import ContinueBtn from '../components/continueBtn'
-  import Link from 'next/link'
 
 
 export default function Home() {
